@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Tamilnux</title><link>https://jaigansa.github.io/tamilnux/</link><description>Recent content in Home on Tamilnux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 15 Jan 2025 11:19:11 +0530</lastBuildDate><atom:link href="https://jaigansa.github.io/tamilnux/index.xml" rel="self" type="application/rss+xml"/><item><title>Sync Folder</title><link>https://jaigansa.github.io/tamilnux/posts/sync-folder/</link><pubDate>Wed, 15 Jan 2025 11:19:11 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/sync-folder/</guid><description>&lt;p>Rsync is a Unix-like software tool that efficiently syncs files and directories between two machines.&lt;/p>
+&lt;h2 id="copy-or-sync-files-and-directories-locally">Copy or sync files and directories locally.&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rsync -avh /user/A /user/B 
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>thankyou&lt;/p>
+&lt;p>&lt;a href="https://download.samba.org/pub/rsync/rsync.html">Manpage&lt;/a>&lt;/p></description></item><item><title>Mobile Screencast</title><link>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</link><pubDate>Wed, 15 Jan 2025 10:39:51 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</guid><description>&lt;h2 id="screen-cast-android-to-obs-media-source">Screen cast android to obs media source&lt;/h2>
+&lt;h3 id="rtmp-method">rtmp method&lt;/h3>
+&lt;blockquote>
+&lt;p>Install rtmp app to phone&lt;/p>
+&lt;/blockquote>
+&lt;ol>
+&lt;li>
+&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.prism.live&amp;amp;pcampaignid=web_share">PRISM Live Studio&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.wmspanel.larix_screencaster&amp;amp;pcampaignid=web_share">Larix&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h4 id="serve-screen-the-rtmp">serve screen the rtmp&lt;/h4>
+&lt;blockquote>
+&lt;p>system-ip-address:port &lt;code>192.168.0.100:1935&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>key &lt;code>streamkey&lt;/code>&lt;/p>
+&lt;/blockquote>
+&lt;h4 id="nginx">NGINX&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install nginx libnginx-mod-rtmp vlc
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nano /etc/nginx/nginx.conf
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rtmp &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> listen 1935;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> chunk_size 4096;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> application live &lt;span style="color:#f92672">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> live on;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> record off;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nginx -t &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo systemctl restart nginx
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sT localhost
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="ffmpeg-reserve-rtmp">ffmpeg reserve rtmp&lt;/h4>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ffmpeg -f flv -listen &lt;span style="color:#ae81ff">1&lt;/span> -i rtmp://&amp;lt;system-ip-address:port&amp;gt;/live/&amp;lt;key&amp;gt; -c copy -f flv -listen &lt;span style="color:#ae81ff">1&lt;/span> rtmp://&amp;lt;localhost:1935&amp;gt;/live/&amp;lt;key&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="obs-source-input">obs source input&lt;/h4>
+&lt;blockquote>
+&lt;p>media source&lt;/p></description></item></channel></rss>
