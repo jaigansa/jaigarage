@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Courier Primes';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/CourierPrime-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Courier Prime';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/fonts/CourierPrime-Italic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Courier Prime';
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/CourierPrime-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Courier Prime';
+    font-style: italic;
+    font-weight: 700;
+    src: url('/fonts/CourierPrime-BoldItalic.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Tiro Tamil';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/TiroTamil-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Tiro Tamil';
+    font-style: italic;
+    font-weight: 400;
+    src: url('/fonts/TiroTamil-Italic.ttf') format('truetype');
+  }
+  

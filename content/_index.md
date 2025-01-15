@@ -5,6 +5,5 @@ title = 'Home'
 +++
 
 # Vannako!
-
-# Inga Enna Irrukum
-    - linux info 
+### Vaga tamilnux users
+    
