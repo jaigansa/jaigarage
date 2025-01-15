@@ -1,0 +1,33 @@
+# Hugo build output
+public/
+
+# Temporary files created by Hugo
+resources/
+hugo_stats.json
+
+# Node.js dependencies (if using npm or yarn for managing Hugo themes)
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor and IDE-specific files
+*.swp
+*.swo
+.idea/
+.vscode/
+*.log
+
+# Git-related files
+*.lock
+
+# Backup files
+*.bak
+*.tmp
+
+# Netlify or deployment-related files (if applicable)
+.netlify/
+
+# Optional: Exclude generated themes if using git submodules
+#themes/*/
