@@ -1,4 +1,4 @@
-baseURL = "https://jaigansa.github.io/"
+baseURL = "https://jaigansa.github.io"
 languageCode = 'en-us'
 title = 'Tamilnux'
 theme = 'tamilnux'
