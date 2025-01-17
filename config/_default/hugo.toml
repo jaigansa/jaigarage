@@ -10,11 +10,10 @@ theme = 'tamilnux'
   authorName = "Jai Ganesh"
   socialLinks = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
 
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.116.0"
-
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+    
 [permalinks]
   tags = "/topics/:slug/"
 
