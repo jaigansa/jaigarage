@@ -21,7 +21,7 @@ a {
   text-decoration: none;
 }
 
-.featured-image img {
+.featured-banner img {
   max-width: 100%;
   height: auto;
   border-radius: 16px;
@@ -87,4 +87,9 @@ ul.menu li a.active {
 
 .tags{
   background-color: red;
+}
+
+pre {
+  padding: 10px;
+  border-radius: 8px;
 }

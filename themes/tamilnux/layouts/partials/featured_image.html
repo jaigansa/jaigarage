@@ -1,9 +1,7 @@
-{{ with .Params.featured_image }}
-  <div class="featured-image">
-    <img src="{{ . | relURL }}" alt="Featured image for {{ $.Title }}" loading="lazy">
-  </div>
-{{ else }}
-  <div class="featured-image">
-    <img src="{{ site.Params.default_featured_image | relURL }}" alt="Default featured image" loading="lazy">
-  </div>
-{{ end }}
+<div class="featured-banner">
+  <img 
+      src="{{ .Params.featuredImage | default .Site.Params.featuredImage }}" 
+      alt="{{ .Title }}" 
+      class="w-full h-64 object-cover"
+  >
+</div>

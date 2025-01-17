@@ -1,24 +1,19 @@
-baseURL = "https://jaigansa.github.io/tamilnux/"
+baseURL = "https://jaigansa.github.io/"
 languageCode = 'en-us'
 title = 'Tamilnux'
 theme = 'tamilnux'
-relativeURLs = true
-canonifyURLs = true
+
 
 
 [params]
-  default_featured_image = "images/featured_wip.webp"
-  author_name = "Jai Ganesh"
-  social_links = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
-
-
+  featuredImage = "/images/banner/thumb_wip.webp"
+  authorName = "Jai Ganesh"
+  socialLinks = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
 
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
-
-
 
 [permalinks]
   tags = "/topics/:slug/"

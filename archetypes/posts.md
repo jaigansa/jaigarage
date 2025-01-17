@@ -5,7 +5,7 @@ draft = true
 author = "author"
 categories = []
 tags = []
-featured_image = ""
+featured_image = "images/featured.webp"
 summary = ""
 +++
 
