@@ -4,4 +4,4 @@ draft = false
 title = 'Posts'
 +++
 
-Latest Posts.
+Latest Posts
