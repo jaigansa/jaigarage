@@ -1,31 +1,29 @@
-baseURL = 'https://jaigansa.github.io/tamilnux/'
+baseURL = "https://jaigansa.github.io/tamilnux/"
 languageCode = 'en-us'
 title = 'Tamilnux'
 theme = 'tamilnux'
-
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
-
-[[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
-weight = 20
-
-[[menus.main]]
-name = 'Docs'
-pageRef = '/docs'
-weight = 30
+relativeURLs = true
+canonifyURLs = true
 
 
-[[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
-weight = 40
+[params]
+  default_featured_image = "images/featured_wip.webp"
+  author_name = "Jai Ganesh"
+  social_links = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
+
 
 
 [module]
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+
+
+[permalinks]
+  tags = "/topics/:slug/"
+
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"

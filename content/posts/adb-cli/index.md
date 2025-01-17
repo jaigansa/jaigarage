@@ -1,23 +1,19 @@
 +++
 date = '2025-01-15T11:37:51+05:30'
-draft = true
-title = 'Adb Cli'
+draft = false
+title = 'Adb CLI'
+tags = ['adb', 'cli']
+featured_image = "images/featured.png"
 +++
 
----
-title: "ADB Connect Cli"
-date: 2024-04-10
-draft: false
-description: "adb cli pair and connect wireless"
-tags: ["linux", "cli"]
----
+
 
 
 # abd connect  cli
 
 ## Install adb
 
-> [ADB PLATFROM TOOLS](https://developer.android.com/tools/releases/platform-tools")
+> [ADB PLATFROM TOOLS](https://developer.android.com/tools/releases/platform-tools)
 
 > [linux adb latest](https://dl.google.com/android/repository/platform-tools-latest-linux.zip)
 

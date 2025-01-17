@@ -1,5 +1,18 @@
 +++
-date = '{{ time.Now.Format "2006-01-02" }}'
+title = "{{ replace .Name "-" " " | title }}"
+date = {{ time.Now.Format "2006-01-02" }}
 draft = true
-title = '{{ replace .File.ContentBaseName `-` ` ` | title }}'
+author = "author"
+categories = []
+tags = []
+featured_image = ""
+summary = ""
 +++
+
+## Introduction
+
+Write a brief introduction here.
+
+## Main Content
+
+Add your content here.

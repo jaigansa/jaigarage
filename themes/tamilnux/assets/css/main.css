@@ -21,6 +21,20 @@ a {
   text-decoration: none;
 }
 
+.featured-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  margin: 20px 0;
+  max-width: 100%;
+  height: auto;
+}
+
+
 
 /* Basic Reset */
 
@@ -31,7 +45,7 @@ ul.menu {
   padding: 0;
   display: flex; /* Arrange items horizontally */
   background-color: var(--bg-dark); /* Dark background */
-  border-radius: 50px; /* Round corners of the entire menu */
+  border-radius: 16px; /* Round corners of the entire menu */
   overflow: hidden; /* Ensure children respect the parent’s rounded corners */
   width: fit-content;
 }
@@ -70,3 +84,7 @@ ul.menu li a.active {
   }
 }
 
+
+.tags{
+  background-color: red;
+}
