@@ -11,8 +11,8 @@ theme = 'tamilnux'
   socialLinks = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
 
 [[module.mounts]]
-  source = 'assets'
-  target = 'assets'
+  source = 'static'
+  target = 'static'
     
 [permalinks]
   tags = "/topics/:slug/"
