@@ -3,12 +3,11 @@ date = '2025-01-15T11:37:51+05:30'
 draft = false
 title = 'Adb CLI'
 tags = ['adb', 'cli']
-featuredImage = "images/featured.png"
+featuredImage = "/images/thumb/adb-cli.png"
 +++
 
 
-![image](images/featured.png)
-![image2](/images/thumb/banner.png)
+![image](images/cartoon.webp)
 
 # abd connect  cli
 

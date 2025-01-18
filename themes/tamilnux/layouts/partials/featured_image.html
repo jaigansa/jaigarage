@@ -2,7 +2,7 @@
   {{ if .Params.featuredImage }}
     <!-- Page-specific banner -->
     <img 
-        src="{{ .Params.featuredImage   }}" 
+        src="{{ .Params.featuredImage  }}" 
         alt="{{ .Title }}" 
         class="w-full h-64 object-cover"
         loading="lazy"
@@ -10,7 +10,7 @@
   {{ else if .Parent.Params.featuredImage }}
     <!-- Section-specific banner -->
     <img 
-        src="{{ .Parent.Params.featuredImage }}" 
+        src="{{ .Parent.Params.featuredImage  | relURL  }}" 
         alt="{{ .Title }}" 
         class="w-full h-64 object-cover"
         loading="lazy"
