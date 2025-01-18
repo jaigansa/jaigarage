@@ -6,6 +6,10 @@ tags = ['adb', 'cli']
 featuredImage = "images/featured.png"
 +++
 
+
+![image](images/featured.png)
+![image2](/images/thumb/banner.png)
+
 # abd connect  cli
 
 ## Install adb
