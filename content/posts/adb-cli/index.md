@@ -3,7 +3,7 @@ date = '2025-01-15T11:37:51+05:30'
 draft = false
 title = 'Adb CLI'
 tags = ['adb', 'cli']
-featuredImage = "/images/thumb/adb-cli.png"
+featuredImage = "images/thumb/adb-cli.png"
 +++
 
 
