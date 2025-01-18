@@ -15,10 +15,7 @@ footer {
   margin-top: 1rem;
 }
 
-a {
-  color: var(--primary-color);
-  text-decoration: none;
-}
+
 
 /* Menu */
 
@@ -69,14 +66,21 @@ ul.menu li a.active {
 
 /* orginal remake css */
 
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
 pre {
   padding: 10px;
   border-radius: 8px;
 }
 
 img {
-  border-radius: 4px;
-
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
