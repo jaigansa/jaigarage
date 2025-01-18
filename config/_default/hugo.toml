@@ -6,7 +6,7 @@ theme = 'tamilnux'
 
 
 [params]
-  featuredImage = "images/thumb/wip.webp"
+  featuredImage = "images/thumbnails/wip.webp"
   authorName = "Jai Ganesh"
   socialLinks = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
 

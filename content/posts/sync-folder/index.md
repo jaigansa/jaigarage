@@ -2,7 +2,7 @@
 date = '2025-01-15T11:19:11+05:30'
 draft = false
 title = 'Sync Folder'
-featuredImage = '/images/thumb/sync-folder.png'
+featuredImage = 'images/thumbnails/sync-folder.png'
 +++
 
 Rsync is a Unix-like software tool that efficiently syncs files and directories between two machines.
