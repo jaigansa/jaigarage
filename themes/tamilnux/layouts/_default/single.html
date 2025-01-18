@@ -1,12 +1,7 @@
 {{ define "main" }}
       {{ partial "featured_image.html" . }}
   <h1>{{ .Title }}</h1>
-  <p>Tags: 
-    {{ range .Params.tags }}
-      <a href="/tags/{{ . | urlize }}">{{ . }}</a>
-    {{ end }}
-  </p>
-  
+
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
   {{ $dateHuman := .Date | time.Format ":date_long" }}
   <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
