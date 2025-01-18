@@ -2,7 +2,7 @@
   {{ if .Params.featuredImage }}
     <!-- Page-specific banner -->
     <img 
-        src="{{ .Params.featuredImage | relURL }}" 
+        src="{{ .Params.featuredImage | absURL }}" 
         alt="{{ .Title }}" 
         class="w-full h-64 object-cover"
         loading="lazy"
