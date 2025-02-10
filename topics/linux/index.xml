@@ -3,7 +3,7 @@
 &lt;h2 id="google-chrome">Google Chrome&lt;/h2>
 &lt;p>&lt;a href="https://www.google.com/intl/en_in/chrome/">Get Chrome&lt;/a>&lt;/p>
 &lt;h2 id="firefox">Firefox&lt;/h2>
-&lt;h1 id="install-firefox-deb-on-debian-based-systems">Install Firefox .deb on Debian-based Systems&lt;/h1>
+&lt;h2 id="install-firefox-deb-on-debian-based-systems">Install Firefox .deb on Debian-based Systems&lt;/h2>
 &lt;p>Install Firefox using the APT repository:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Create APT key directory&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo install -d -m &lt;span style="color:#ae81ff">0755&lt;/span> /etc/apt/keyrings
@@ -22,7 +22,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Update &amp;amp; install Firefox&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install firefox
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Icon Theme</title><link>https://jaigansa.github.io/tamilnux/installs/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/installs/icon-themes/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/tamilnux/installs/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/installs/icon-themes/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>My Fav Icon themes&lt;/p>
 &lt;h2 id="icons">Icons&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:papirus/papirus
@@ -67,41 +67,4 @@
 &lt;ol>
 &lt;li>
 &lt;p>Ventoy is an open source tool to create bootable USB drive
-&lt;a href="https://www.ventoy.net/en/download.html">Download&lt;/a>&lt;/p></description></item><item><title>Screencast Source</title><link>https://jaigansa.github.io/tamilnux/posts/screencast_source/</link><pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/screencast_source/</guid><description>&lt;h2 id="screen-cast-android-to-obs-media-source">Screen cast android to obs media source&lt;/h2>
-&lt;h3 id="rtmp-method">rtmp method&lt;/h3>
-&lt;blockquote>
-&lt;p>Install rtmp app to phone&lt;/p>&lt;/blockquote>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.prism.live&amp;amp;pcampaignid=web_share%22">PRISM Live Studio&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.wmspanel.larix_screencaster&amp;amp;pcampaignid=web_share%22">Larix&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h4 id="serve-screen-the-rtmp">serve screen the rtmp&lt;/h4>
-&lt;blockquote>
-&lt;p>system-ip-address:port &lt;code>192.168.0.100:1935&lt;/code>&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>key &lt;code>streamkey&lt;/code>&lt;/p>&lt;/blockquote>
-&lt;h4 id="nginx">NGINX&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install nginx libnginx-mod-rtmp vlc
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nano /etc/nginx/nginx.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rtmp &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> listen 1935;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> chunk_size 4096;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> application live &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> live on;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> record off;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nginx -t &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo systemctl restart nginx
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sT localhost
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="ffmpeg-reserve-rtmp">ffmpeg reserve rtmp&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ffmpeg -f flv -listen &lt;span style="color:#ae81ff">1&lt;/span> -i rtmp://&amp;lt;system-ip-address:port&amp;gt;/live/&amp;lt;key&amp;gt; -c copy -f flv -listen &lt;span style="color:#ae81ff">1&lt;/span> rtmp://&amp;lt;localhost:1935&amp;gt;/live/&amp;lt;key&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="obs-source-input">obs source input&lt;/h4>
-&lt;blockquote>
-&lt;p>media source&lt;/p></description></item></channel></rss>
+&lt;a href="https://www.ventoy.net/en/download.html">Download&lt;/a>&lt;/p></description></item></channel></rss>
