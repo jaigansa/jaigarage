@@ -1,5 +1,5 @@
 +++
-title = "Install Os"
+title = "Operating System"
 date = 2025-01-18
 draft = false
 author = "jaiganesh"

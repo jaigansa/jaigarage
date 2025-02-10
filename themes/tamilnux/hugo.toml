@@ -19,9 +19,14 @@ weight = 30
 
 
 [[menus.main]]
+name = 'Installs'
+pageRef = '/installs'
+weight = 40
+
+[[menus.main]]
 name = 'Tags'
 pageRef = '/tags'
-weight = 40
+weight = 50
 
 
 [module]
