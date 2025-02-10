@@ -1,8 +1,34 @@
 {{ define "main" }}
+
+
+
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2 class="latest-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }} </a></h2>
-    <p class="latest-date"> {{ .Params.date.Format "Jan 2, 2006" }}</p>
-    {{ .Params.Summary }}
+
+  {{ range .Site.RegularPages }}
+
+    <div class="latest-posts">
+    <!-- Qrcode-->
+    <div class="latest-qrcode">{{ printf "{{< qr text=\"%s\" />}}" .Permalink | markdownify }}</div> 
+
+    <div class="latest-content">
+    <!-- Page Title -->
+    <h2 class="latest-title">
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </h2>
+
+    <!-- Page Date (Fallback if missing) -->
+    <p class="latest-date">
+      {{ with .Params.date }}
+        {{ .Format "Jan 2, 2006" }}
+      {{ else }}
+        {{ .Date.Format "Jan 2, 2006" }}
+      {{ end }}
+    </p>
+
+    <!-- Summary (Fallback if missing) -->
+    <p class="latest-summary">{{ .Params.Summary | default "No summary available." }}</p>
+    </div>
+  </div>
+
   {{ end }}
 {{ end }}

@@ -5,7 +5,7 @@ draft = false
 author = "jaiganesh"
 tags = ["linux"]
 featured_image = "images/google-chrome.webp"
-summary = ""
+summary = "Install fav browser"
 +++
 
 ## Introduction
