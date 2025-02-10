@@ -21,11 +21,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>adb connect &amp;lt;device_ip_address&amp;gt;:&amp;lt;device_port&amp;gt; 
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>adb devices
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
-&lt;p>Related Video&lt;/p>&lt;/blockquote></description></item><item><title>Sync Folder</title><link>https://jaigansa.github.io/tamilnux/posts/sync-folder/</link><pubDate>Wed, 15 Jan 2025 11:19:11 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/sync-folder/</guid><description>&lt;p>Rsync is a Unix-like software tool that efficiently syncs files and directories between two machines.&lt;/p>
-&lt;h2 id="copy-or-sync-files-and-directories-locally">Copy or sync files and directories locally.&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rsync -avh /user/A /user/B 
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>thankyou&lt;/p>
-&lt;p>&lt;a href="https://download.samba.org/pub/rsync/rsync.html">Manpage&lt;/a>&lt;/p></description></item><item><title>Mobile Screencast</title><link>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</link><pubDate>Wed, 15 Jan 2025 10:39:51 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</guid><description>&lt;h2 id="screen-cast-android-to-obs-media-source">Screen cast android to obs media source&lt;/h2>
+&lt;p>Related Video&lt;/p>&lt;/blockquote></description></item><item><title>Sync Folder</title><link>https://jaigansa.github.io/tamilnux/posts/sync-folder/</link><pubDate>Wed, 15 Jan 2025 11:19:11 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/sync-folder/</guid><description>two folder sync each others</description></item><item><title>Mobile Screencast</title><link>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</link><pubDate>Wed, 15 Jan 2025 10:39:51 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</guid><description>&lt;h2 id="screen-cast-android-to-obs-media-source">Screen cast android to obs media source&lt;/h2>
 &lt;h3 id="rtmp-method">rtmp method&lt;/h3>
 &lt;blockquote>
 &lt;p>Install rtmp app to phone&lt;/p>&lt;/blockquote>

@@ -1,28 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Install on Tamilnux</title><link>https://jaigansa.github.io/tamilnux/installs/</link><description>Recent content in Install on Tamilnux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jaigansa.github.io/tamilnux/installs/index.xml" rel="self" type="application/rss+xml"/><item><title>Browsers</title><link>https://jaigansa.github.io/tamilnux/installs/browsers/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/installs/browsers/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>main use is chrome but like firefox&lt;/p>
-&lt;h2 id="google-chrome">Google Chrome&lt;/h2>
-&lt;p>&lt;a href="https://www.google.com/intl/en_in/chrome/">Get Chrome&lt;/a>&lt;/p>
-&lt;h2 id="firefox">Firefox&lt;/h2>
-&lt;h2 id="install-firefox-deb-on-debian-based-systems">Install Firefox .deb on Debian-based Systems&lt;/h2>
-&lt;p>Install Firefox using the APT repository:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Create APT key directory&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo install -d -m &lt;span style="color:#ae81ff">0755&lt;/span> /etc/apt/keyrings
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Import Mozilla signing key&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>wget -q https://packages.mozilla.org/apt/repo-signing-key.gpg -O- | sudo tee /etc/apt/keyrings/packages.mozilla.org.asc &amp;gt; /dev/null
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Verify fingerprint (should be 35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3)&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>gpg -n -q --import --import-options import-show /etc/apt/keyrings/packages.mozilla.org.asc | awk &lt;span style="color:#e6db74">&amp;#39;/pub/{getline; gsub(/^ +| +$/,&amp;#34;&amp;#34;); if($0 == &amp;#34;35BAA0B33E9EB396F59CA838C0BA5CE6DC6315A3&amp;#34;) print &amp;#34;\nKey matches: &amp;#34;$0&amp;#34;\n&amp;#34;; else print &amp;#34;\nVerification failed: &amp;#34;$0&amp;#34;\n&amp;#34;}&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Add Mozilla APT repository&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#34;deb [signed-by=/etc/apt/keyrings/packages.mozilla.org.asc] https://packages.mozilla.org/apt mozilla main&amp;#34;&lt;/span> | sudo tee /etc/apt/sources.list.d/mozilla.list &amp;gt; /dev/null
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Set repository priority&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>echo &lt;span style="color:#e6db74">&amp;#39;Package: *\nPin: origin packages.mozilla.org\nPin-Priority: 1000&amp;#39;&lt;/span> | sudo tee /etc/apt/preferences.d/mozilla
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#75715e"># Update &amp;amp; install Firefox&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install firefox
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/tamilnux/installs/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/installs/icon-themes/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Install on Tamilnux</title><link>https://jaigansa.github.io/tamilnux/installs/</link><description>Recent content in Install on Tamilnux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jaigansa.github.io/tamilnux/installs/index.xml" rel="self" type="application/rss+xml"/><item><title>Browsers</title><link>https://jaigansa.github.io/tamilnux/installs/browsers/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/installs/browsers/</guid><description>Install fav browser</description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/tamilnux/installs/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/installs/icon-themes/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
 &lt;p>My Fav Icon themes&lt;/p>
 &lt;h2 id="icons">Icons&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:papirus/papirus
