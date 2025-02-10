@@ -1,5 +1,5 @@
 +++
-title = "Icon Theme"
+title = "Icon Themes"
 date = 2025-02-10
 draft = false
 author = "jaiganesh"

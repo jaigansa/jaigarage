@@ -21,3 +21,12 @@ theme = 'tamilnux'
 [taxonomies]
   tag = "tags"
   category = "categories"
+
+
+
+
+[privacy]
+  [privacy.instagram]
+    disable = false
+    simple = true
+

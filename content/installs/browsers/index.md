@@ -18,8 +18,7 @@ main use is chrome but like firefox
 
 ## Firefox
 
-# Install Firefox .deb on Debian-based Systems
-
+## Install Firefox .deb on Debian-based Systems
 
 Install Firefox using the APT repository:
 
