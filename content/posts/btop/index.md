@@ -1,0 +1,15 @@
++++
+title = "Btop"
+date = 2025-02-14
+draft = false
+author = "jaiganesh"
+tags = ["config"]
+featured_image = "images/btop.webp"
+summary = ""
++++
+
+## The configuration file for btop is located at:
+
+```bash
+~/.config/btop/btop.conf
+```
