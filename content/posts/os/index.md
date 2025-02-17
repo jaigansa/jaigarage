@@ -4,7 +4,7 @@ date = 2025-01-18
 draft = false
 author = "jaiganesh"
 tags = ["linux"]
-featured_image = "images/install-os.webp"
+featured_image = "images/thumbnails/install-os.webp"
 summary = ""
 +++
 

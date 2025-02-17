@@ -4,7 +4,7 @@ draft = false
 title = 'Adb CLI'
 tags = ['config']
 featured_image = "adb-cli.png"
-summary = "adb connection setup"
+summary = "images/thumbnails/adb connection setup"
 +++
 
 

@@ -4,7 +4,7 @@ date = 2025-02-10
 draft = false
 author = "jaiganesh"
 tags = ["linux"]
-featured_image = "images/google-chrome.webp"
+featured_image = "images/thumbnails/google-chrome.webp"
 summary = "Install fav browser"
 +++
 

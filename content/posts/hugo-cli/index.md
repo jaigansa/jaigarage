@@ -4,7 +4,7 @@ date = 2025-02-14
 draft = false
 author = "jaiganesh"
 tags = ["config"]
-featured_image = "images/hugo-cli.webp"
+featured_image = "images/thumbnails/hugo-cli.webp"
 summary = ""
 +++
 
