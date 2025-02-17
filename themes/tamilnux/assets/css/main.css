@@ -25,7 +25,6 @@ h1, h2, h3 {
   border: none;
   border-radius: 5rem;
   background-color: var(--background-color);
-  cursor: pointer;
   width:3rem;
 }
 .toggle-button:hover{
