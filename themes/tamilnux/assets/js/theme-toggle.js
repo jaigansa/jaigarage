@@ -1,3 +1,5 @@
+console.log('This is toggle theme js');
+
 function toggleTheme() {
     const rootElement = document.documentElement;
     const currentTheme = rootElement.classList.contains('light-theme') ? 'light' : 'dark';
