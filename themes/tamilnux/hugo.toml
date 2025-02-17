@@ -1,6 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://tamilnux.in/'
 languageCode = 'en-US'
-title = 'My New Hugo Site'
+title = 'Tamilnux Theme'
+
+[params]
+  featured_image = "images/wip_banner.webp"
+  author_name = "Jai Ganesh"
+  social_links = ["https://twitter.com/jaigansa"]
 
 [[menus.main]]
 name = 'Home'

@@ -1,36 +1,22 @@
 <div class="featured-banner">
-  {{ if .Params.featuredImage }}
-    <!-- Page-specific banner -->
+  {{ $image := "" }}
+
+  {{ if .Params.featured_image }}
+    {{ $image = .Params.featured_image  }}
+  {{ else if .Parent }}
+    {{ if .Parent.Params.featured_image }}
+      {{ $image = .Parent.Params.featured_image | relURL }}
+    {{ end }}
+  {{ else if .Site.Params.featured_image }}
+    {{ $image = .Site.Params.featured_image | absURL }}
+  {{ end }}
+
+  {{ with $image }}
     <img 
-        src="{{ .Params.featuredImage | absURL }}" 
-        alt="{{ .Title }}" 
-        class="w-full h-64 object-cover"
-        loading="lazy"
-    >
-  {{ else if .Parent.Params.featuredImage }}
-    <!-- Section-specific banner -->
-    <img 
-        src="{{ .Parent.Params.featuredImage  | relURL  }}" 
-        alt="{{ .Title }}" 
-        class="w-full h-64 object-cover"
-        loading="lazy"
-    >
-  {{ else if .Site.Params.featuredImage }}
-    <!-- Global fallback banner -->
-    <img 
-        src="{{ .Site.Params.featuredImage | absURL }}" 
-        alt="{{ .Title }}" 
-        class="w-full h-64 object-cover"
-        loading="lazy"
-    >
-  {{ else }}
-    <!-- Hardcoded default banner -->
-    <img 
-        src="{{ "/images/default-banner.jpg"  }}" 
-        alt="Default Banner" 
+        src="{{ . }}" 
+        alt="{{ $.Title }}" 
         class="w-full h-64 object-cover"
         loading="lazy"
     >
   {{ end }}
 </div>
-

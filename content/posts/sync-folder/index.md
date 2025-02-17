@@ -2,7 +2,7 @@
 date = '2025-01-15T11:19:11+05:30'
 draft = false
 title = 'Sync Folder'
-featuredImage = 'images/thumbnails/sync-folder.png'
+featured_image = 'sync-folder.png'
 summary = "two folder sync each others"
 +++
 

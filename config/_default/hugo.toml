@@ -5,11 +5,6 @@ theme = 'tamilnux'
 
 
 
-[params]
-  featuredImage = "images/thumbnails/wip.webp"
-  authorName = "Jai Ganesh"
-  socialLinks = ["https://twitter.com/yourhandle", "https://github.com/yourhandle"]
-
 [[module.mounts]]
   source = 'static'
   target = 'static'
