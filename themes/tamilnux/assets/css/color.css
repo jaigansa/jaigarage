@@ -1,30 +1,33 @@
+/* Default Light Theme */
 :root {
-    /* Primary Colors */
-    --primary-color: #007BFF;
-    --primary-hover: #0056b3;
-  
-    /* Secondary Colors */
-    --secondary-color: #6c757d;
-    --secondary-hover: #545b62;
-  
-    /* Neutral Colors */
-    --white: #ffffff;
-    --black: #000000;
-    --gray-light: #f8f9fa;
-    --gray-dark: #343a40;
-  
-    /* Accent Colors */
-    --success-color: #28a745;
-    --danger-color: #dc3545;
-    --warning-color: #ffc107;
-    --info-color: #17a2b8;
-  
-    /* Text Colors */
-    --text-primary: #212529;
-    --text-secondary: #f8f9fa;
-  
-    /* Background Colors */
-    --bg-light: #f8f9fa;
-    --bg-dark: #343a40;
-  }
-  
+  --primary-color: #A8E6CF; /* Mint Green */
+  --secondary-color: #FFD3B6; /* Light Peach */
+  --accent-color: #FF8B94; /* Soft Coral */
+  --background-color: #FFFFFF; /* Background White */
+  --text-color: #333333; /* Dark Grey Text */
+  --muted-text-color: #757575; /* Muted Grey Text */
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Dark Theme */
+.dark-theme {
+  --primary-color: #A8E6CF;
+  --secondary-color: #FFD3B6;
+  --accent-color: #FF8B94;
+  --background-color: #2C2C2C;
+  --text-color: #EAEAEA;
+  --muted-text-color: #B0B0B0;
+  --box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* Light Theme */
+.light-theme {
+  --primary-color: #A8E6CF;
+  --secondary-color: #FFD3B6;
+  --accent-color: #FF8B94;
+  --background-color: #FFFFFF;
+  --text-color: #333333;
+  --muted-text-color: #757575;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

@@ -2,7 +2,7 @@
   {{ $image := "" }}
 
   {{ if .Params.featured_image }}
-    {{ $image = .Params.featured_image  }}
+    {{ $image = .Params.featured_image | absURL  }}
   {{ else if .Parent }}
     {{ if .Parent.Params.featured_image }}
       {{ $image = .Parent.Params.featured_image | relURL }}

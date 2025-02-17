@@ -3,9 +3,11 @@ languageCode = 'en-US'
 title = 'Tamilnux Theme'
 
 [params]
+  theme = "light"
   featured_image = "images/wip_banner.webp"
   author_name = "Jai Ganesh"
   social_links = ["https://twitter.com/jaigansa"]
+
 
 [[menus.main]]
 name = 'Home'
@@ -23,15 +25,11 @@ pageRef = '/docs'
 weight = 30
 
 
-[[menus.main]]
-name = 'Installs'
-pageRef = '/installs'
-weight = 40
 
 [[menus.main]]
 name = 'Tags'
 pageRef = '/tags'
-weight = 50
+weight = 100
 
 
 [module]

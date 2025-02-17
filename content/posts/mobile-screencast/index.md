@@ -2,6 +2,7 @@
 date = '2025-01-15T10:39:51+05:30'
 draft = false
 title = 'Mobile Screencast'
+featured_image = "images/mobile-screencast.webp"
 +++
 
 ## Screen cast android to obs media source

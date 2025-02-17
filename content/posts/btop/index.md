@@ -1,5 +1,5 @@
 +++
-title = "Btop"
+title = "Btop "
 date = 2025-02-14
 draft = false
 author = "jaiganesh"
@@ -11,5 +11,7 @@ summary = ""
 ## The configuration file for btop is located at:
 
 ```bash
+sudo apt install btop
+
 ~/.config/btop/btop.conf
 ```

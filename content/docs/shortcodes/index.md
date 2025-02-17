@@ -4,7 +4,7 @@ date = 2025-02-10
 draft = false
 author = "jaiganesh"
 tags = []
-featured_image = "images/shortcodes.webp"
+featured_image = ""
 summary = ""
 +++
 
@@ -50,13 +50,13 @@ func main() {
 
 ## QR
 
-{{< qr text="https://gohugo.io" />}}
+{{< qr targetDir="/images/qrcodes" text="https://gohugo.io" />}}
 
-{{< qr text="tel:+12065550101" />}}
+{{< qr targetDir="/images/qrcodes" text="tel:+12065550101" />}}
 
 ### qr vcard
 
-{{< qr level="low" scale=2 alt="QR code of vCard for John Smith" >}}
+{{< qr targetDir="/images/qrcodes" level="low" scale=2 alt="QR code of vCard for John Smith" >}}
 BEGIN:VCARD
 VERSION:2.1
 N;CHARSET=UTF-8:Smith;John;R.;Dr.;PhD
@@ -72,3 +72,7 @@ END:VCARD
 ## youtube
 
 {{< youtube 0RKpf3rK57I >}}
+
+## icons
+
+{{< icon name="github">}}

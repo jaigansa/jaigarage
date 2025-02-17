@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="{{ if eq .Site.Params.theme "dark" }}dark-theme{{ else }}light-theme{{ end }}">
 <head>
   {{ partial "head.html" . }}
 </head>
@@ -14,4 +14,5 @@
     {{ partial "footer.html" . }}
   </footer>
 </body>
+<script src="js/theme-toggle.js"></script>
 </html>

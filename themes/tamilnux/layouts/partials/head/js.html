@@ -1,4 +1,4 @@
-{{- with resources.Get "js/main.js" }}
+<!-- {{- with resources.Get "js/main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
       <script src="{{ .RelPermalink }}"></script>
@@ -7,6 +7,20 @@
     {{- $opts := dict "minify" true }}
     {{- with . | js.Build $opts | fingerprint }}
       <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+    {{- end }}
+  {{- end }}
+{{- end }} -->
+
+{{- $scripts := slice "js/main.js" "js/theme-toggle.js" }}
+{{- range $scripts }}
+  {{- with resources.Get . }}
+    {{- if eq hugo.Environment "development" }}
+      <script src="{{ .RelPermalink }}"></script>
+    {{- else }}
+      {{- $opts := dict "minify" true }}
+      {{- with . | js.Build $opts | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{- end }}
     {{- end }}
   {{- end }}
 {{- end }}

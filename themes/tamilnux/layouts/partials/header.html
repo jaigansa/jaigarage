@@ -1,2 +1,8 @@
-<h1>{{ site.Title }}</h1>
+<div class="main-head">
+    <h1>{{ site.Title }}</h1>
+    <button onclick="toggleTheme()" class="toggle-button">{{ partial "icon" "face-grin-hearts" }}
+    </button>
+</div>
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
+
