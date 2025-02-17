@@ -3,8 +3,8 @@ date = '2025-01-15T11:37:51+05:30'
 draft = false
 title = 'Adb CLI'
 tags = ['config']
-featured_image = "adb-cli.png"
-summary = "images/thumbnails/adb connection setup"
+featured_image = "images/thumbnails/adb-cli.png"
+summary = "adb connection setup"
 +++
 
 
