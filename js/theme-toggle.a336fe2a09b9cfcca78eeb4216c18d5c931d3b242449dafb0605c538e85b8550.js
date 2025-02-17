@@ -1,0 +1,1 @@
+(()=>{(function(){let e=localStorage.getItem("theme");e&&(document.documentElement.classList.remove(e==="light"?"dark-theme":"light-theme"),document.documentElement.classList.add(`${e}-theme`))})();})();
