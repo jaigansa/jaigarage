@@ -1,0 +1,1 @@
+(()=>{console.log("This is toggle theme js");window.toggleTheme=function(){let e=document.documentElement,t=e.classList.contains("light-theme")?"light":"dark",o=t==="light"?"dark":"light";e.classList.remove(`${t}-theme`),e.classList.add(`${o}-theme`),localStorage.setItem("theme",o)};})();
