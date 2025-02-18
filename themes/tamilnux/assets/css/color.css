@@ -17,12 +17,4 @@
   --box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
-/* Automatically apply dark mode if system prefers */
-@media (prefers-color-scheme: dark) {
-  :root:not(.light-theme) {
-    --background-color: #2C2C2C;
-    --text-color: #EAEAEA;
-    --muted-text-color: #B0B0B0;
-    --box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
-  }
-}
+
