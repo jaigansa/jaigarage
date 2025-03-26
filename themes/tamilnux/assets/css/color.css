@@ -1,20 +1,35 @@
-/* Default Light Theme */
+/* Light Mode (Latte) */
 :root {
-  --primary-color: #A8E6CF; /* Mint Green */
-  --secondary-color: #FFD3B6; /* Light Peach */
-  --accent-color: #FF8B94; /* Soft Coral */
-  --background-color: #FFFFFF; /* Background White */
-  --text-color: #333333; /* Dark Grey Text */
-  --muted-text-color: #757575; /* Muted Grey Text */
-  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --base: #EFF1F5; /* Main background */
+  --mantle: #E6E9EF; /* Section background */
+  --crust: #DCE0E8; /* Sidebar/Navbar */
+
+  --text: #4C4F69; /* Main text */
+  --subtext: #6C6F85; /* Muted text */
+  --highlight: #DC8A78; /* Important text */
+
+  --primary: #7287FD; /* Buttons & links */
+  --secondary: #F5A97F; /* Secondary actions */
+  --accent: #F38BA8; /* Hover & highlights */
+
+  --border: #CCD0DA; /* Subtle borders */
+  --shadow: 0 4px 6px rgba(76, 79, 105, 0.1); /* Soft shadow */
 }
 
-/* Dark Theme */
+/* Dark Mode (Macchiato) */
 .dark-theme {
-  --background-color: #2C2C2C;
-  --text-color: #EAEAEA;
-  --muted-text-color: #B0B0B0;
-  --box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+  --base: #24273A; /* Main background */
+  --mantle: #1E1E2E; /* Section background */
+  --crust: #181926; /* Sidebar/Navbar */
+
+  --text: #CAD3F5; /* Main text */
+  --subtext: #A5ADCB; /* Muted text */
+  --highlight: #F4DBD6; /* Important text */
+
+  --primary: #8AADF4; /* Buttons & links */
+  --secondary: #F5A97F; /* Secondary actions */
+  --accent: #F38BA8; /* Hover & highlights */
+
+  --border: #363A4F; /* Subtle borders */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soft shadow */
 }
-
-

@@ -1,5 +1,7 @@
 <div class="main-head">
     <h1>{{ site.Title }}</h1>
+    {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+
     <div class="toggle-switch">
         <label class="switch">
             <input type="checkbox" id="theme-toggle" onclick="toggleTheme()">
@@ -7,6 +9,4 @@
           </label>
     </div>
 </div>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-
 

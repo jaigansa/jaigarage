@@ -9,7 +9,7 @@
 {{- end }}
  -->
 
- {{- $styles := slice "css/main.css" "css/color.css" "css/font.css" }}
+ {{- $styles := slice "css/main.css" "css/color.css" "css/font.css"  }}
 {{- range $styles }}
   {{- with resources.Get . }}
     {{- if eq hugo.Environment "development" }}
