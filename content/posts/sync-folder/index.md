@@ -1,5 +1,5 @@
 +++
-date = '2025-01-15T11:19:11+05:30'
+date = '2025-01-15'
 draft = false
 title = 'Sync Folder'
 featured_image = 'images/thumbnails/sync-folder.png'

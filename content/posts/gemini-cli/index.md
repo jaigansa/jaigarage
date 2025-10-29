@@ -1,8 +1,8 @@
----
-title: "Gemini-CLI Setup in Linux"
-date: 2024-10-29T11:00:00+00:00
-draft: false
----
++++
+title = "Gemini-CLI Setup in Linux"
+date = '2024-10-29'
+draft = false
++++
 
 ## Introduction
 

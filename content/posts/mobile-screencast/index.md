@@ -1,5 +1,5 @@
 +++
-date = '2025-01-15T10:39:51+05:30'
+date = '2025-01-15'
 draft = false
 title = 'Mobile Screencast'
 featured_image = "images/thumbnails/mobile-screencast.webp"

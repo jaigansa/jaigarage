@@ -1,5 +1,5 @@
 +++
-date = '2025-01-15T11:37:51+05:30'
+date = '2025-01-15'
 draft = false
 title = 'Adb CLI'
 tags = ['config']
