@@ -1,6 +1,6 @@
-baseURL = 'https://tamilnux.in/'
+baseURL = 'https://jaigarage.in/'
 languageCode = 'en-US'
-title = 'Tamilnux Theme'
+title = 'Jaigarage Theme'
 
 [params]
   theme = "light"

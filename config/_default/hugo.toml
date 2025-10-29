@@ -1,7 +1,7 @@
-baseURL = "https://jaigansa.github.io/tamilnux/"
+baseURL = "https://jaigansa.github.io/jaigarage/"
 languageCode = 'en-us'
-title = 'Tamilnux'
-theme = 'tamilnux'
+title = 'Jaigarage'
+theme = 'jaigarage'
 
 
 
