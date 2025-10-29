@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Tamilnux</title><link>https://jaigansa.github.io/tamilnux/</link><description>Recent content in Home on Tamilnux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jaigansa.github.io/tamilnux/index.xml" rel="self" type="application/rss+xml"/><item><title>Pass</title><link>https://jaigansa.github.io/tamilnux/posts/pass/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/pass/</guid><description>password manager</description></item><item><title>Pihole</title><link>https://jaigansa.github.io/tamilnux/posts/pihole/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/pihole/</guid><description>&lt;h2 id="install">Install&lt;/h2>
-&lt;p>One-Step Automated Install
-Those who want to get started quickly and conveniently may install Pi-hole using the following command:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>curl -sSL https://install.pi-hole.net | bash
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="adlist">Adlist&lt;/h2>
-&lt;p>&lt;a href="https://oisd.nl/setup/pihole">oisd&lt;/a>&lt;/p></description></item><item><title>Btop</title><link>https://jaigansa.github.io/tamilnux/posts/btop/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/btop/</guid><description>&lt;h2 id="the-configuration-file-for-btop-is-located-at">The configuration file for btop is located at:&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt install btop
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>~/.config/btop/btop.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Hugo Cli</title><link>https://jaigansa.github.io/tamilnux/posts/hugo-cli/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/hugo-cli/</guid><description>&lt;h1 id="enable-hugo-auto-completion-in-bash">Enable Hugo Auto-Completion in Bash&lt;/h1>
-&lt;p>If you want auto-completion for Hugo commands in the terminal (CLI), you can enable shell completion for Bash. Hugo provides built-in auto-completion scripts.&lt;/p>
-&lt;h2 id="1-generate-and-apply-auto-completion-script">&lt;strong>1. Generate and Apply Auto-Completion Script&lt;/strong>&lt;/h2>
-&lt;p>Run the following command to generate the Hugo auto-completion script and apply it to your current session:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>hugo completion bash | tee /etc/bash_completion.d/hugo
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>source /etc/bash_completion.d/hugo
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you don’t have root permissions, save it in your home directory instead:&lt;/p></description></item><item><title>No Utf Fix</title><link>https://jaigansa.github.io/tamilnux/posts/no-utf-fix/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/no-utf-fix/</guid><description>&lt;h1 id="fixing-no-utf-8-locale-detected-on-debian-server">Fixing &amp;ldquo;No UTF-8 locale detected!&amp;rdquo; on Debian Server&lt;/h1>
-&lt;p>If you encounter the error &lt;strong>&amp;ldquo;No UTF-8 locale detected!&amp;rdquo;&lt;/strong> on a Debian server, it means that your system lacks a properly configured UTF-8 locale. Follow these steps to resolve the issue.&lt;/p>
-&lt;h2 id="1-check-available-locales">1️⃣ Check Available Locales&lt;/h2>
-&lt;p>First, check which locales are available on your system:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>locale -a
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Look for an entry like &lt;code>en_US.utf8&lt;/code> or any other UTF-8 locale. If none exist, you need to generate them.&lt;/p></description></item><item><title>Browsers</title><link>https://jaigansa.github.io/tamilnux/posts/browsers/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/browsers/</guid><description>Install fav browser</description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/tamilnux/posts/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/icon-themes/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>My Fav Icon themes&lt;/p>
-&lt;h2 id="icons">Icons&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:papirus/papirus
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install papirus-icon-theme &lt;span style="color:#75715e"># Papirus, Papirus-Dark, and Papirus-Light&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install epapirus-icon-theme &lt;span style="color:#75715e"># ePapirus, and ePapirus-Dark for elementaryOS only&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://launchpad.net/~papirus/+archive/ubuntu/papirus">PPA&lt;/a>&lt;/p>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:papirus/papirus
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install --install-recommends arc-kde
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Shortcodes</title><link>https://jaigansa.github.io/tamilnux/docs/shortcodes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/docs/shortcodes/</guid><description>&lt;p>hugo shortcodes&lt;/p>
-&lt;h2 id="details">Details&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on Jaigarage</title><link>https://jaigansa.github.io/jaigarage/</link><description>Recent content in Home on Jaigarage</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jaigansa.github.io/jaigarage/index.xml" rel="self" type="application/rss+xml"/><item><title>Pass</title><link>https://jaigansa.github.io/jaigarage/posts/pass/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/pass/</guid><description>password manager</description></item><item><title>Pihole</title><link>https://jaigansa.github.io/jaigarage/posts/pihole/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/pihole/</guid><description>&lt;h2 id="install"&gt;Install&lt;/h2&gt;
+&lt;p&gt;One-Step Automated Install
+Those who want to get started quickly and conveniently may install Pi-hole using the following command:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;curl -sSL https://install.pi-hole.net | bash
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="adlist"&gt;Adlist&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://oisd.nl/setup/pihole"&gt;oisd&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Btop</title><link>https://jaigansa.github.io/jaigarage/posts/btop/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/btop/</guid><description>&lt;h2 id="the-configuration-file-for-btop-is-located-at"&gt;The configuration file for btop is located at:&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt install btop
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;~/.config/btop/btop.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Hugo Cli</title><link>https://jaigansa.github.io/jaigarage/posts/hugo-cli/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/hugo-cli/</guid><description>&lt;h1 id="enable-hugo-auto-completion-in-bash"&gt;Enable Hugo Auto-Completion in Bash&lt;/h1&gt;
+&lt;p&gt;If you want auto-completion for Hugo commands in the terminal (CLI), you can enable shell completion for Bash. Hugo provides built-in auto-completion scripts.&lt;/p&gt;
+&lt;h2 id="1-generate-and-apply-auto-completion-script"&gt;&lt;strong&gt;1. Generate and Apply Auto-Completion Script&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Run the following command to generate the Hugo auto-completion script and apply it to your current session:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hugo completion bash | tee /etc/bash_completion.d/hugo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;source /etc/bash_completion.d/hugo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you don’t have root permissions, save it in your home directory instead:&lt;/p&gt;</description></item><item><title>No Utf Fix</title><link>https://jaigansa.github.io/jaigarage/posts/no-utf-fix/</link><pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/no-utf-fix/</guid><description>&lt;h1 id="fixing-no-utf-8-locale-detected-on-debian-server"&gt;Fixing &amp;ldquo;No UTF-8 locale detected!&amp;rdquo; on Debian Server&lt;/h1&gt;
+&lt;p&gt;If you encounter the error &lt;strong&gt;&amp;ldquo;No UTF-8 locale detected!&amp;rdquo;&lt;/strong&gt; on a Debian server, it means that your system lacks a properly configured UTF-8 locale. Follow these steps to resolve the issue.&lt;/p&gt;
+&lt;h2 id="1-check-available-locales"&gt;1️⃣ Check Available Locales&lt;/h2&gt;
+&lt;p&gt;First, check which locales are available on your system:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;locale -a
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Look for an entry like &lt;code&gt;en_US.utf8&lt;/code&gt; or any other UTF-8 locale. If none exist, you need to generate them.&lt;/p&gt;</description></item><item><title>Browsers</title><link>https://jaigansa.github.io/jaigarage/posts/browsers/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/browsers/</guid><description>Install fav browser</description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/jaigarage/posts/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/icon-themes/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;My Fav Icon themes&lt;/p&gt;
+&lt;h2 id="icons"&gt;Icons&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo add-apt-repository ppa:papirus/papirus
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get install papirus-icon-theme &lt;span style="color:#75715e"&gt;# Papirus, Papirus-Dark, and Papirus-Light&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get install epapirus-icon-theme &lt;span style="color:#75715e"&gt;# ePapirus, and ePapirus-Dark for elementaryOS only&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://launchpad.net/~papirus/+archive/ubuntu/papirus"&gt;PPA&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="themes"&gt;Themes&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo add-apt-repository ppa:papirus/papirus
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get install --install-recommends arc-kde
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Shortcodes</title><link>https://jaigansa.github.io/jaigarage/docs/shortcodes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/docs/shortcodes/</guid><description>&lt;p&gt;hugo shortcodes&lt;/p&gt;
+&lt;h2 id="details"&gt;Details&lt;/h2&gt;
 
-&lt;details>
- &lt;summary>See the details&lt;/summary>
- &lt;p>This is a &lt;strong>bold&lt;/strong> word.&lt;/p>
-&lt;/details>
+&lt;details&gt;
+ &lt;summary&gt;See the details&lt;/summary&gt;
+ &lt;p&gt;This is a &lt;strong&gt;bold&lt;/strong&gt; word.&lt;/p&gt;
+&lt;/details&gt;
 
-&lt;h2 id="figure">Figure&lt;/h2>
-&lt;figure class="ma0 w-75">&lt;a href="https://www.nps.gov/zion/index.htm">&lt;img src="https://jaigansa.github.io/tamilnux/images/examples/zion-national-park.jpg"
- alt="A photograph of Zion National Park">&lt;/a>&lt;figcaption>
- &lt;p>Zion National Park&lt;/p>
- &lt;/figcaption>
-&lt;/figure>
+&lt;h2 id="figure"&gt;Figure&lt;/h2&gt;
+&lt;figure class="ma0 w-75"&gt;&lt;a href="https://www.nps.gov/zion/index.htm"&gt;&lt;img src="https://jaigansa.github.io/jaigarage/images/examples/zion-national-park.jpg"
+ alt="A photograph of Zion National Park"&gt;&lt;/a&gt;&lt;figcaption&gt;
+ &lt;p&gt;Zion National Park&lt;/p&gt;
+ &lt;/figcaption&gt;
+&lt;/figure&gt;
 
-&lt;h2 id="highlight">highlight&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>&lt;span style="color:#a2f;font-weight:bold">package&lt;/span> main
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex; background-color:#dfdfdf">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>&lt;span style="color:#a2f;font-weight:bold">import&lt;/span> &lt;span style="color:#b44">&amp;#34;fmt&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5&lt;/span>&lt;span>&lt;span style="color:#a2f;font-weight:bold">func&lt;/span> &lt;span style="color:#00a000">main&lt;/span>() {
-&lt;/span>&lt;/span>&lt;span style="display:flex; background-color:#dfdfdf">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6&lt;/span>&lt;span> &lt;span style="color:#a2f;font-weight:bold">for&lt;/span> i &lt;span style="color:#666">:=&lt;/span> &lt;span style="color:#666">0&lt;/span>; i &amp;lt; &lt;span style="color:#666">3&lt;/span>; i&lt;span style="color:#666">++&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex; background-color:#dfdfdf">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7&lt;/span>&lt;span> fmt.&lt;span style="color:#00a000">Println&lt;/span>(&lt;span style="color:#b44">&amp;#34;Value of i:&amp;#34;&lt;/span>, i)
-&lt;/span>&lt;/span>&lt;span style="display:flex; background-color:#dfdfdf">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8&lt;/span>&lt;span> }
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9&lt;/span>&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
-&lt;h2 id="instagram">Instagram&lt;/h2>
+&lt;h2 id="highlight"&gt;highlight&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;display:grid;"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a2f;font-weight:bold"&gt;package&lt;/span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;main&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex; background-color:#dfdfdf"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt;&lt;/span&gt;&lt;span style="color:#a2f;font-weight:bold"&gt;import&lt;/span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;&lt;span style="color:#b44"&gt;&amp;#34;fmt&amp;#34;&lt;/span&gt;&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt;&lt;/span&gt;&lt;span style="color:#a2f;font-weight:bold"&gt;func&lt;/span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;&lt;span style="color:#00a000"&gt;main&lt;/span&gt;()&lt;span style="color:#bbb"&gt; &lt;/span&gt;{&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex; background-color:#dfdfdf"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;&lt;span style="color:#a2f;font-weight:bold"&gt;for&lt;/span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;i&lt;span style="color:#bbb"&gt; &lt;/span&gt;&lt;span style="color:#666"&gt;:=&lt;/span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;&lt;span style="color:#666"&gt;0&lt;/span&gt;;&lt;span style="color:#bbb"&gt; &lt;/span&gt;i&lt;span style="color:#bbb"&gt; &lt;/span&gt;&amp;lt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;&lt;span style="color:#666"&gt;3&lt;/span&gt;;&lt;span style="color:#bbb"&gt; &lt;/span&gt;i&lt;span style="color:#666"&gt;++&lt;/span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;{&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex; background-color:#dfdfdf"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;fmt.&lt;span style="color:#00a000"&gt;Println&lt;/span&gt;(&lt;span style="color:#b44"&gt;&amp;#34;Value of i:&amp;#34;&lt;/span&gt;,&lt;span style="color:#bbb"&gt; &lt;/span&gt;i)&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex; background-color:#dfdfdf"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt; &lt;/span&gt;}&lt;span style="color:#bbb"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#bbb"&gt;&lt;/span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id="instagram"&gt;Instagram&lt;/h2&gt;
 &lt;blockquote
  class="instagram-media"
  data-instgrm-captioned
@@ -74,8 +74,8 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  width: -webkit-calc(100% - 2px);
  width: calc(100% - 2px);
  "
- >
- &lt;div style="padding: 16px">
+ &gt;
+ &lt;div style="padding: 16px"&gt;
  &lt;a
  href="https://www.instagram.com/p/CkfXhZGvTwU"
  style="
@@ -87,8 +87,8 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  width: 100%;
  "
  target="_blank"
- >
- &lt;div style="display: flex; flex-direction: row; align-items: center">
+ &gt;
+ &lt;div style="display: flex; flex-direction: row; align-items: center"&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -98,7 +98,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  margin-right: 14px;
  width: 40px;
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  display: flex;
@@ -106,7 +106,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  flex-grow: 1;
  justify-content: center;
  "
- >
+ &gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -116,7 +116,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  margin-bottom: 6px;
  width: 100px;
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -125,13 +125,13 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  height: 14px;
  width: 60px;
  "
- >&lt;/div>
- &lt;/div>
- &lt;/div>
- &lt;div style="padding: 19% 0">&lt;/div>
+ &gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div style="padding: 19% 0"&gt;&lt;/div&gt;
  &lt;div
  style="display: block; height: 50px; margin: 0 auto 12px; width: 50px"
- >
+ &gt;
  &lt;svg
  width="50px"
  height="50px"
@@ -139,19 +139,19 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  version="1.1"
  xmlns="https://www.w3.org/2000/svg"
  xmlns:xlink="https://www.w3.org/1999/xlink"
- >
- &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
- &lt;g transform="translate(-511.000000, -20.000000)" fill="#000000">
- &lt;g>
+ &gt;
+ &lt;g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"&gt;
+ &lt;g transform="translate(-511.000000, -20.000000)" fill="#000000"&gt;
+ &lt;g&gt;
  &lt;path
  d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"
- >&lt;/path>
- &lt;/g>
- &lt;/g>
- &lt;/g>
- &lt;/svg>
- &lt;/div>
- &lt;div style="padding-top: 8px">
+ &gt;&lt;/path&gt;
+ &lt;/g&gt;
+ &lt;/g&gt;
+ &lt;/g&gt;
+ &lt;/svg&gt;
+ &lt;/div&gt;
+ &lt;div style="padding-top: 8px"&gt;
  &lt;div
  style="
  color: #3897f0;
@@ -161,11 +161,11 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  font-weight: 550;
  line-height: 18px;
  "
- >
+ &gt;
  View this post on Instagram
- &lt;/div>
- &lt;/div>
- &lt;div style="padding: 12.5% 0">&lt;/div>
+ &lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div style="padding: 12.5% 0"&gt;&lt;/div&gt;
  &lt;div
  style="
  display: flex;
@@ -173,8 +173,8 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  margin-bottom: 14px;
  align-items: center;
  "
- >
- &lt;div>
+ &gt;
+ &lt;div&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -183,7 +183,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  width: 12.5px;
  transform: translateX(0px) translateY(7px);
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -194,7 +194,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  margin-right: 14px;
  margin-left: 2px;
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -203,9 +203,9 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  width: 12.5px;
  transform: translateX(9px) translateY(-18px);
  "
- >&lt;/div>
- &lt;/div>
- &lt;div style="margin-left: 8px">
+ &gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div style="margin-left: 8px"&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -214,7 +214,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  height: 20px;
  width: 20px;
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  width: 0;
@@ -224,9 +224,9 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  border-bottom: 2px solid transparent;
  transform: translateX(16px) translateY(-4px) rotate(30deg);
  "
- >&lt;/div>
- &lt;/div>
- &lt;div style="margin-left: auto">
+ &gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div style="margin-left: auto"&gt;
  &lt;div
  style="
  width: 0px;
@@ -234,7 +234,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  border-right: 8px solid transparent;
  transform: translateY(16px);
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -243,7 +243,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  width: 16px;
  transform: translateY(-4px);
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  width: 0;
@@ -252,9 +252,9 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  border-left: 8px solid transparent;
  transform: translateY(-4px) translateX(8px);
  "
- >&lt;/div>
- &lt;/div>
- &lt;/div>
+ &gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;/div&gt;
  &lt;div
  style="
  display: flex;
@@ -263,7 +263,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  justify-content: center;
  margin-bottom: 24px;
  "
- >
+ &gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -273,7 +273,7 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  margin-bottom: 6px;
  width: 224px;
  "
- >&lt;/div>
+ &gt;&lt;/div&gt;
  &lt;div
  style="
  background-color: #f4f4f4;
@@ -282,89 +282,92 @@ Those who want to get started quickly and conveniently may install Pi-hole using
  height: 14px;
  width: 144px;
  "
- >&lt;/div>&lt;/div
- >&lt;/a>
- &lt;/div>
- &lt;/blockquote>
-&lt;h2 id="qr">QR&lt;/h2>
-&lt;img src="https://jaigansa.github.io/tamilnux/images/qrcodes/qr_cdca5a4ad28157be.png" width="132" height="132">
-&lt;img src="https://jaigansa.github.io/tamilnux/images/qrcodes/qr_1ebd53048eac137a.png" width="132" height="132">
-&lt;h3 id="qr-vcard">qr vcard&lt;/h3>
-&lt;img src="https://jaigansa.github.io/tamilnux/images/qrcodes/qr_61f4cd5973e425fa.png" width="130" height="130" alt="QR code of vCard for John Smith">
-&lt;h2 id="youtube">youtube&lt;/h2>
-&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
- &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0RKpf3rK57I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video">&lt;/iframe>
- &lt;/div>
+ &gt;&lt;/div&gt;&lt;/div
+ &gt;&lt;/a&gt;
+ &lt;/div&gt;
+ &lt;/blockquote&gt;
+&lt;h2 id="qr"&gt;QR&lt;/h2&gt;
+&lt;img src="https://jaigansa.github.io/jaigarage/images/qrcodes/qr_cdca5a4ad28157be.png" width="132" height="132"&gt;
+&lt;img src="https://jaigansa.github.io/jaigarage/images/qrcodes/qr_1ebd53048eac137a.png" width="132" height="132"&gt;
+&lt;h3 id="qr-vcard"&gt;qr vcard&lt;/h3&gt;
+&lt;img src="https://jaigansa.github.io/jaigarage/images/qrcodes/qr_61f4cd5973e425fa.png" width="130" height="130" alt="QR code of vCard for John Smith"&gt;
+&lt;h2 id="youtube"&gt;youtube&lt;/h2&gt;
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;"&gt;
+ &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0RKpf3rK57I?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
 
-&lt;h2 id="icons">icons&lt;/h2>
-&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">&lt;!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->&lt;path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/>&lt;/svg></description></item><item><title>Operating System</title><link>https://jaigansa.github.io/tamilnux/posts/os/</link><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/os/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Install Linux Operating System.&lt;/p>
-&lt;h2 id="main-content">Main Content&lt;/h2>
-&lt;h3 id="choosing-the-fav-distro-and-desktop-environment-of-linux">Choosing the fav distro and desktop Environment of Linux&lt;/h3>
-&lt;h4 id="we-choose-kubuntu-lts">We Choose Kubuntu LTS&lt;/h4>
-&lt;ol>
-&lt;li>Download the latest release of the kubuntu os
-&lt;a href="https://kubuntu.org/getkubuntu/">Download&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;h4 id="install-etcher-via">Install Etcher Via&lt;/h4>
-&lt;ol>
-&lt;li>
-&lt;p>Flash with Etcher to the usb stick
-&lt;a href="https://etcher.balena.io/#download-etcher">Download&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>flash usb drive use Etcher&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>boot usb driver in your machine&lt;/p>
-&lt;ul>
-&lt;li>asus bios ESC or F2&lt;/li>
-&lt;li>boot menu F8&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Install os&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h4 id="install-ventoy-via">Install Ventoy Via&lt;/h4>
-&lt;ol>
-&lt;li>
-&lt;p>Ventoy is an open source tool to create bootable USB drive
-&lt;a href="https://www.ventoy.net/en/download.html">Download&lt;/a>&lt;/p></description></item><item><title>Adb CLI</title><link>https://jaigansa.github.io/tamilnux/posts/adb-cli/</link><pubDate>Wed, 15 Jan 2025 11:37:51 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/adb-cli/</guid><description>adb connection setup</description></item><item><title>Sync Folder</title><link>https://jaigansa.github.io/tamilnux/posts/sync-folder/</link><pubDate>Wed, 15 Jan 2025 11:19:11 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/sync-folder/</guid><description>two folder sync each others</description></item><item><title>Mobile Screencast</title><link>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</link><pubDate>Wed, 15 Jan 2025 10:39:51 +0530</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/mobile-screencast/</guid><description>&lt;h2 id="screen-cast-android-to-obs-media-source">Screen cast android to obs media source&lt;/h2>
-&lt;h3 id="rtmp-method">rtmp method&lt;/h3>
-&lt;blockquote>
-&lt;p>Install rtmp app to phone&lt;/p>&lt;/blockquote>
-&lt;ol>
-&lt;li>
-&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.prism.live&amp;amp;pcampaignid=web_share">PRISM Live Studio&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;a href="https://play.google.com/store/apps/details?id=com.wmspanel.larix_screencaster&amp;amp;pcampaignid=web_share">Larix&lt;/a>&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h4 id="serve-screen-the-rtmp">serve screen the rtmp&lt;/h4>
-&lt;blockquote>
-&lt;p>system-ip-address:port &lt;code>192.168.0.100:1935&lt;/code>&lt;/p>&lt;/blockquote>
-&lt;blockquote>
-&lt;p>key &lt;code>streamkey&lt;/code>&lt;/p>&lt;/blockquote>
-&lt;h4 id="nginx">NGINX&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo apt-get update &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo apt-get install nginx libnginx-mod-rtmp vlc
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo nano /etc/nginx/nginx.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>rtmp &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> server &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> listen 1935;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> chunk_size 4096;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> application live &lt;span style="color:#f92672">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> live on;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> record off;
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo nginx -t &lt;span style="color:#f92672">&amp;amp;&amp;amp;&lt;/span> sudo systemctl restart nginx
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>nmap -sT localhost
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="ffmpeg-reserve-rtmp">ffmpeg reserve rtmp&lt;/h4>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>ffmpeg -f flv -listen &lt;span style="color:#ae81ff">1&lt;/span> -i rtmp://&amp;lt;system-ip-address:port&amp;gt;/live/&amp;lt;key&amp;gt; -c copy -f flv -listen &lt;span style="color:#ae81ff">1&lt;/span> rtmp://&amp;lt;localhost:1935&amp;gt;/live/&amp;lt;key&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h4 id="obs-source-input">obs source input&lt;/h4>
-&lt;blockquote>
-&lt;p>media source&lt;/p></description></item></channel></rss>
+&lt;h2 id="icons"&gt;icons&lt;/h2&gt;
+&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"&gt;&lt;!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. --&gt;&lt;path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/&gt;&lt;/svg&gt;</description></item><item><title>Operating System</title><link>https://jaigansa.github.io/jaigarage/posts/os/</link><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/os/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Install Linux Operating System.&lt;/p&gt;
+&lt;h2 id="main-content"&gt;Main Content&lt;/h2&gt;
+&lt;h3 id="choosing-the-fav-distro-and-desktop-environment-of-linux"&gt;Choosing the fav distro and desktop Environment of Linux&lt;/h3&gt;
+&lt;h4 id="we-choose-kubuntu-lts"&gt;We Choose Kubuntu LTS&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the latest release of the kubuntu os
+&lt;a href="https://kubuntu.org/getkubuntu/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="install-etcher-via"&gt;Install Etcher Via&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Flash with Etcher to the usb stick
+&lt;a href="https://etcher.balena.io/#download-etcher"&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;flash usb drive use Etcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;boot usb driver in your machine&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;asus bios ESC or F2&lt;/li&gt;
+&lt;li&gt;boot menu F8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install os&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="install-ventoy-via"&gt;Install Ventoy Via&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Ventoy is an open source tool to create bootable USB drive
+&lt;a href="https://www.ventoy.net/en/download.html"&gt;Download&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Adb CLI</title><link>https://jaigansa.github.io/jaigarage/posts/adb-cli/</link><pubDate>Wed, 15 Jan 2025 11:37:51 +0530</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/adb-cli/</guid><description>adb connection setup</description></item><item><title>Sync Folder</title><link>https://jaigansa.github.io/jaigarage/posts/sync-folder/</link><pubDate>Wed, 15 Jan 2025 11:19:11 +0530</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/sync-folder/</guid><description>two folder sync each others</description></item><item><title>Mobile Screencast</title><link>https://jaigansa.github.io/jaigarage/posts/mobile-screencast/</link><pubDate>Wed, 15 Jan 2025 10:39:51 +0530</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/mobile-screencast/</guid><description>&lt;h2 id="screen-cast-android-to-obs-media-source"&gt;Screen cast android to obs media source&lt;/h2&gt;
+&lt;h3 id="rtmp-method"&gt;rtmp method&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Install rtmp app to phone&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.prism.live&amp;amp;pcampaignid=web_share"&gt;PRISM Live Studio&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.wmspanel.larix_screencaster&amp;amp;pcampaignid=web_share"&gt;Larix&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="serve-screen-the-rtmp"&gt;serve screen the rtmp&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;system-ip-address:port &lt;code&gt;192.168.0.100:1935&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;key &lt;code&gt;streamkey&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id="nginx"&gt;NGINX&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get update &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo apt-get install nginx libnginx-mod-rtmp vlc
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo nano /etc/nginx/nginx.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;rtmp &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; server &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; listen 1935;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; chunk_size 4096;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; application live &lt;span style="color:#f92672"&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; live on;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; record off;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo nginx -t &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; sudo systemctl restart nginx
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;nmap -sT localhost
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="ffmpeg-reserve-rtmp"&gt;ffmpeg reserve rtmp&lt;/h4&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -f flv -listen &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; -i rtmp://&amp;lt;system-ip-address:port&amp;gt;/live/&amp;lt;key&amp;gt; -c copy -f flv -listen &lt;span style="color:#ae81ff"&gt;1&lt;/span&gt; rtmp://&amp;lt;localhost:1935&amp;gt;/live/&amp;lt;key&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="obs-source-input"&gt;obs source input&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;media source&lt;/p&gt;</description></item></channel></rss>

@@ -1,46 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Tamilnux</title><link>https://jaigansa.github.io/tamilnux/topics/linux/</link><description>Recent content in Linux on Tamilnux</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jaigansa.github.io/tamilnux/topics/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Pass</title><link>https://jaigansa.github.io/tamilnux/posts/pass/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/pass/</guid><description>password manager</description></item><item><title>Browsers</title><link>https://jaigansa.github.io/tamilnux/posts/browsers/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/browsers/</guid><description>Install fav browser</description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/tamilnux/posts/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/icon-themes/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>My Fav Icon themes&lt;/p>
-&lt;h2 id="icons">Icons&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:papirus/papirus
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install papirus-icon-theme &lt;span style="color:#75715e"># Papirus, Papirus-Dark, and Papirus-Light&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install epapirus-icon-theme &lt;span style="color:#75715e"># ePapirus, and ePapirus-Dark for elementaryOS only&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;a href="https://launchpad.net/~papirus/+archive/ubuntu/papirus">PPA&lt;/a>&lt;/p>
-&lt;h2 id="themes">Themes&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span>sudo add-apt-repository ppa:papirus/papirus
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get update
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sudo apt-get install --install-recommends arc-kde
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Operating System</title><link>https://jaigansa.github.io/tamilnux/posts/os/</link><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/tamilnux/posts/os/</guid><description>&lt;h2 id="introduction">Introduction&lt;/h2>
-&lt;p>Install Linux Operating System.&lt;/p>
-&lt;h2 id="main-content">Main Content&lt;/h2>
-&lt;h3 id="choosing-the-fav-distro-and-desktop-environment-of-linux">Choosing the fav distro and desktop Environment of Linux&lt;/h3>
-&lt;h4 id="we-choose-kubuntu-lts">We Choose Kubuntu LTS&lt;/h4>
-&lt;ol>
-&lt;li>Download the latest release of the kubuntu os
-&lt;a href="https://kubuntu.org/getkubuntu/">Download&lt;/a>&lt;/li>
-&lt;/ol>
-&lt;h4 id="install-etcher-via">Install Etcher Via&lt;/h4>
-&lt;ol>
-&lt;li>
-&lt;p>Flash with Etcher to the usb stick
-&lt;a href="https://etcher.balena.io/#download-etcher">Download&lt;/a>&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>flash usb drive use Etcher&lt;/p>
-&lt;/li>
-&lt;li>
-&lt;p>boot usb driver in your machine&lt;/p>
-&lt;ul>
-&lt;li>asus bios ESC or F2&lt;/li>
-&lt;li>boot menu F8&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Install os&lt;/p>
-&lt;/li>
-&lt;/ol>
-&lt;h4 id="install-ventoy-via">Install Ventoy Via&lt;/h4>
-&lt;ol>
-&lt;li>
-&lt;p>Ventoy is an open source tool to create bootable USB drive
-&lt;a href="https://www.ventoy.net/en/download.html">Download&lt;/a>&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Jaigarage</title><link>https://jaigansa.github.io/jaigarage/topics/linux/</link><description>Recent content in Linux on Jaigarage</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jaigansa.github.io/jaigarage/topics/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Pass</title><link>https://jaigansa.github.io/jaigarage/posts/pass/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/pass/</guid><description>password manager</description></item><item><title>Browsers</title><link>https://jaigansa.github.io/jaigarage/posts/browsers/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/browsers/</guid><description>Install fav browser</description></item><item><title>Icon Themes</title><link>https://jaigansa.github.io/jaigarage/posts/icon-themes/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/icon-themes/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;My Fav Icon themes&lt;/p&gt;
+&lt;h2 id="icons"&gt;Icons&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo add-apt-repository ppa:papirus/papirus
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get install papirus-icon-theme &lt;span style="color:#75715e"&gt;# Papirus, Papirus-Dark, and Papirus-Light&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get install epapirus-icon-theme &lt;span style="color:#75715e"&gt;# ePapirus, and ePapirus-Dark for elementaryOS only&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a href="https://launchpad.net/~papirus/+archive/ubuntu/papirus"&gt;PPA&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="themes"&gt;Themes&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo add-apt-repository ppa:papirus/papirus
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get update
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;sudo apt-get install --install-recommends arc-kde
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Operating System</title><link>https://jaigansa.github.io/jaigarage/posts/os/</link><pubDate>Sat, 18 Jan 2025 00:00:00 +0000</pubDate><guid>https://jaigansa.github.io/jaigarage/posts/os/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Install Linux Operating System.&lt;/p&gt;
+&lt;h2 id="main-content"&gt;Main Content&lt;/h2&gt;
+&lt;h3 id="choosing-the-fav-distro-and-desktop-environment-of-linux"&gt;Choosing the fav distro and desktop Environment of Linux&lt;/h3&gt;
+&lt;h4 id="we-choose-kubuntu-lts"&gt;We Choose Kubuntu LTS&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;Download the latest release of the kubuntu os
+&lt;a href="https://kubuntu.org/getkubuntu/"&gt;Download&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="install-etcher-via"&gt;Install Etcher Via&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Flash with Etcher to the usb stick
+&lt;a href="https://etcher.balena.io/#download-etcher"&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;flash usb drive use Etcher&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;boot usb driver in your machine&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;asus bios ESC or F2&lt;/li&gt;
+&lt;li&gt;boot menu F8&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install os&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id="install-ventoy-via"&gt;Install Ventoy Via&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Ventoy is an open source tool to create bootable USB drive
+&lt;a href="https://www.ventoy.net/en/download.html"&gt;Download&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
