@@ -1,16 +1,17 @@
 +++
-title = "Hugo Cli"
-date = 2025-02-14
+title = "Hugo CLI"
+date = "2025-02-14"
 draft = false
 author = "jaiganesh"
-tags = ["config"]
-featured_image = "images/thumbnails/hugo-cli.webp"
-summary = ""
+tags = ["hugo", "cli", "auto-completion", "bash", "linux", "productivity"]
+categories = ["development", "tools"]
+featured_image = "/images/thumbnails/hugo-cli.webp"
+summary = "Auto-completion for command-line interface (CLI) tools significantly enhances productivity by reducing typing, minimizing errors, and making it easier to discover available commands and options. If you want auto-completion for Hugo commands in the terminal (CLI), you can enable shell completion for Bash."
 +++
 
 # Enable Hugo Auto-Completion in Bash
 
-If you want auto-completion for Hugo commands in the terminal (CLI), you can enable shell completion for Bash. Hugo provides built-in auto-completion scripts.
+Auto-completion for command-line interface (CLI) tools significantly enhances productivity by reducing typing, minimizing errors, and making it easier to discover available commands and options. If you want auto-completion for Hugo commands in the terminal (CLI), you can enable shell completion for Bash. Hugo provides built-in auto-completion scripts.
 
 ## **1. Generate and Apply Auto-Completion Script**
 
@@ -20,6 +21,9 @@ Run the following command to generate the Hugo auto-completion script and apply 
 hugo completion bash | tee /etc/bash_completion.d/hugo
 source /etc/bash_completion.d/hugo
 ```
+*   `hugo completion bash`: Generates the Bash completion script for Hugo.
+*   `| tee /etc/bash_completion.d/hugo`: Pipes the generated script to `tee`, which writes it to `/etc/bash_completion.d/hugo` (making it available system-wide for Bash completion) and also outputs it to stdout.
+*   `source /etc/bash_completion.d/hugo`: Executes the script in the current shell session, immediately enabling auto-completion without restarting the terminal.
 
 If you don’t have root permissions, save it in your home directory instead:
 
@@ -28,6 +32,9 @@ hugo completion bash > ~/.hugo_completion.sh
 echo "source ~/.hugo_completion.sh" >> ~/.bashrc
 source ~/.bashrc
 ```
+*   `> ~/.hugo_completion.sh`: Redirects the generated script to a file in your home directory.
+*   `echo "source ~/.hugo_completion.sh" >> ~/.bashrc`: Adds a line to your `~/.bashrc` file to source the completion script every time a new Bash session starts.
+*   `source ~/.bashrc`: Reloads your `~/.bashrc` file in the current session.
 
 ## **2. Test Auto-Completion**
 
@@ -60,6 +67,8 @@ After installation, reload your shell:
 ```bash
 exec bash
 ```
+*   `exec bash`: This command replaces the current shell process with a new Bash instance. This is a clean way to ensure all new environment variables and configurations are loaded without fully restarting your terminal application.
 
-Now, Hugo auto-completion should work seamlessly in your terminal. 🚀
+## Conclusion
 
+Enabling auto-completion for the Hugo CLI significantly boosts your productivity by streamlining command entry and reducing errors. With these steps, you can now navigate and manage your Hugo projects more efficiently, leveraging the full power of the command line with ease.

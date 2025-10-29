@@ -1,12 +1,16 @@
 +++
 title = "Gemini-CLI Setup in Linux"
-date = '2024-10-29'
+date = "2024-10-29"
 draft = false
+author = "jaiganesh"
+tags = ["gemini", "cli", "linux", "installation", "configuration", "ai models", "google ai studio"]
+categories = ["ai", "tools"]
+featured_image = "/images/thumbnails/gemini-cli-setup-in-linux.webp"
+summary = "This guide will walk you through setting up the Gemini CLI on a Linux system. The Gemini CLI is a powerful tool for interacting with Google's Gemini models directly from your command line, enabling scripting, automation, and quick experimentation with AI models."
 +++
-
 ## Introduction
 
-This guide will walk you through setting up the Gemini CLI on a Linux system. The Gemini CLI is a powerful tool for interacting with Google's Gemini models from your command line.
+This guide will walk you through setting up the Gemini CLI on a Linux system. The Gemini CLI is a powerful tool for interacting with Google's Gemini models directly from your command line, enabling scripting, automation, and quick experimentation with AI models.
 
 ## Installation
 
@@ -17,7 +21,7 @@ This guide will walk you through setting up the Gemini CLI on a Linux system. Th
     chmod +x gemini-cli-linux
     ```
 
-3.  **Move to a directory in your PATH:**
+3.  **Move and rename the binary to a directory in your PATH:**
     ```bash
     sudo mv gemini-cli-linux /usr/local/bin/gemini
     ```
@@ -30,7 +34,7 @@ This guide will walk you through setting up the Gemini CLI on a Linux system. Th
     ```bash
     export GEMINI_API_KEY="YOUR_API_KEY"
     ```
-    You can add this line to your `~/.bashrc` or `~/.zshrc` file to make it permanent.
+    You can add this line to your `~/.bashrc` or `~/.zshrc` file to make it permanent. **Important:** Keep your API key secure and never commit it to version control.
 
 ## Basic Usage
 
@@ -48,3 +52,7 @@ This guide will walk you through setting up the Gemini CLI on a Linux system. Th
     ```bash
     cat my_code.py | gemini "Explain this code"
     ```
+
+## Conclusion
+
+You have successfully set up the Gemini CLI on your Linux system. This powerful tool allows for seamless interaction with Google's Gemini models directly from your terminal, opening up possibilities for scripting, automation, and rapid prototyping. Explore the official Gemini CLI documentation for more advanced features and usage examples.
