@@ -1,0 +1,27 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>Gemini-CLI Setup in Linux | Jaigarage</title><link rel=stylesheet href=/jaigarage/css/main.min.5dd5e0bbd29fcb9b9df3e9042419a9fca509c24ba3d1eff2db06076020380fb2.css><link rel=stylesheet href=/jaigarage/css/color.min.cede8afadf434f6a4a6ae065e51b02c4659c8f25c81237f366f2a278b22541d7.css><link rel=stylesheet href=/jaigarage/css/font.min.aec3660c1313819e46342433511184e7597deeada49e74f7f3f175b43ca670ca.css><script src=/jaigarage/js/main.23cd0c7d837263b9eaeb96ee2d9ccfa2969daa3fa00fa1c1fe8701a9b87251a1.js integrity="sha256-I80MfYNyY7nq65buLZzPopadqj+gD6HB/ocBqbhyUaE=" crossorigin=anonymous></script><script src=/jaigarage/js/copy-code.aa310980fa47c013c6f65d90049a9ea6be19737820f658f1aaeaa745baab264d.js integrity="sha256-qjEJgPpHwBPG9l2QBJqepr4Zc3gg9ljxquqnRbqrJk0=" crossorigin=anonymous></script><meta property="og:title" content="Gemini-CLI Setup in Linux"><meta property="og:description" content="Introduction
+This guide will walk you through setting up the Gemini CLI on a Linux system. The Gemini CLI is a powerful tool for interacting with Google&rsquo;s Gemini models from your command line.
+Installation
+
+
+Download the binary: Download the appropriate binary for your Linux distribution from the official Gemini releases page.
+
+
+Make it executable:
+chmod +x gemini-cli-linux
+
+
+Move to a directory in your PATH:
+sudo mv gemini-cli-linux /usr/local/bin/gemini
+
+
+Configuration
+
+
+Get your API key: Obtain your API key from Google AI Studio."><meta property="og:image" content="https://jaigansa.github.io/jaigarage/"><meta property="og:url" content="https://jaigansa.github.io/jaigarage/posts/gemini-cli/"><meta property="og:type" content="article"><meta property="og:site_name" content="Jaigarage"></head><body><header><div class=main-head><h1>Jaigarage</h1><nav><ul class=menu><li><a href=/jaigarage/>Home</a></li><li><a aria-current=true class=ancestor href=/jaigarage/posts/>Posts</a></li><li><a href=/jaigarage/docs/>Docs</a></li><li><a href=/jaigarage/tags/>Tags</a></li></ul></nav><div class=toggle-switch><label class=switch><input type=checkbox id=theme-toggle onclick=toggleTheme()>
+<span class=slider></span></label></div></div></header><main><div class=featured-banner><img src=/jaigarage/images/thumbnails/post_banner.png alt="Gemini-CLI Setup in Linux" class="w-full h-64 object-cover" loading=lazy></div><h1>Gemini-CLI Setup in Linux</h1><time datetime=2024-10-29T11:00:00+00:00>October 29, 2024</time><h2 id=introduction>Introduction</h2><p>This guide will walk you through setting up the Gemini CLI on a Linux system. The Gemini CLI is a powerful tool for interacting with Google&rsquo;s Gemini models from your command line.</p><h2 id=installation>Installation</h2><ol><li><p><strong>Download the binary:</strong> Download the appropriate binary for your Linux distribution from the official Gemini releases page.</p></li><li><p><strong>Make it executable:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>chmod +x gemini-cli-linux
+</span></span></code></pre></div></li><li><p><strong>Move to a directory in your PATH:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>sudo mv gemini-cli-linux /usr/local/bin/gemini
+</span></span></code></pre></div></li></ol><h2 id=configuration>Configuration</h2><ol><li><p><strong>Get your API key:</strong> Obtain your API key from Google AI Studio.</p></li><li><p><strong>Set the API key as an environment variable:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>export GEMINI_API_KEY<span style=color:#f92672>=</span><span style=color:#e6db74>&#34;YOUR_API_KEY&#34;</span>
+</span></span></code></pre></div><p>You can add this line to your <code>~/.bashrc</code> or <code>~/.zshrc</code> file to make it permanent.</p></li></ol><h2 id=basic-usage>Basic Usage</h2><ol><li><p><strong>Check the version:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>gemini --version
+</span></span></code></pre></div></li><li><p><strong>Run a prompt:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>gemini <span style=color:#e6db74>&#34;Hello, world!&#34;</span>
+</span></span></code></pre></div></li><li><p><strong>Use with pipes:</strong></p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>cat my_code.py | gemini <span style=color:#e6db74>&#34;Explain this code&#34;</span>
+</span></span></code></pre></div></li></ol></main><footer><p>Copyright 2025. All rights reserved by JaiGanesh</p></footer><script src=/jaigarage/js/theme.js defer></script></body></html>
